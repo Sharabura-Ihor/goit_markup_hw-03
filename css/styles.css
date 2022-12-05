@@ -9,12 +9,17 @@ a {
 
 .container {
     display: flex;
+    width: 1158px;
+    padding: 25px;
     margin: 0 auto;
+}
 
+.header {
+    display: block;
+    height: 72px;
 }
 
 .webstudio {
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -52,9 +57,12 @@ a {
 
 }
 
-.nav {
+.nav_link {
     display: flex;
+    padding-left: 350px;
+}
 
+.nav {
 
     font-family: 'Roboto';
     font-style: normal;
@@ -91,6 +99,8 @@ a {
 }
 
 .cont {
+display: flex;
+
     font-family: 'Roboto';
     font-style: normal;
     line-height: 1.5;
@@ -99,10 +109,13 @@ a {
 
     color: #434455;
     text-decoration: none;
+    padding-left: 940px;
 }
 
 .service_order {
     background-color: #2E2F42;
+    padding: 140px;
+
 
 }
 
@@ -117,17 +130,26 @@ a {
 
     color: #FFFFFF;
     text-align: center;
-    padding: 192px 0;
+    padding: 120px;
     margin: 0 auto;
+    padding-bottom: 48px;
 }
 
 .button_order {
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    border-radius: 4px;
+    text-align: center;
+    letter-spacing: 0.04em;
     background: #4D5AE5;
     color: #F4F4FD;
     cursor: pointer;
     display: block;
-
-
+    width: 170px;
+    height: 51px;
+    margin: 0 auto;
 
 }
 
@@ -148,6 +170,7 @@ a {
     color: #2E2F42;
     text-decoration: none;
     margin: 0 auto;
+
 }
 
 .char {
@@ -272,5 +295,30 @@ a {
 }
 
 .list {
+    display: flex;
     list-style: none;
+
+    margin-left: 40px;
+}
+
+.listcont {
+    display: flex;
+    list-style: none;
+
+    margin-left: 40px;
+}
+
+.listport {
+    display: flex;
+    list-style: none;
+}
+
+.listchar {
+    display: flex;
+    list-style: none;
+    
+}
+
+.pecu {
+    padding: 120px;
 }
