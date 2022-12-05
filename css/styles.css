@@ -1,0 +1,276 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+    width: 1158px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.webstudio {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+
+    letter-spacing: 0.03em;
+
+    color: #2E2F42;
+
+}
+
+.webstudio_footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+
+    letter-spacing: 0.03em;
+
+    color: #F4F4FD;
+}
+
+.web {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+
+    letter-spacing: 0.03em;
+
+    color: #4D5AE5;
+
+}
+
+.nav {
+    display: flex;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+
+    color: #2E2F42;
+    text-decoration: none;
+    margin: 0 auto;
+
+
+}
+
+.nav_port {
+    box-sizing: border-box;
+    padding: 8px 16px;
+    background: #4D5AE5;
+
+    color: #E7E9FC;
+    cursor: pointer;
+
+}
+
+.nav:hover {
+    color: #4D5AE5;
+}
+
+.nav_port:hover {
+    background-color: #404BBF;
+    color: #F4F4FD;
+}
+
+.cont {
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+
+    color: #434455;
+    text-decoration: none;
+}
+
+.service_order {
+    background-color: #2E2F42;
+
+}
+
+.solut {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.0;
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+    text-align: center;
+    padding: 192px 0;
+    margin: 0 auto;
+}
+
+.button_order {
+    background: #4D5AE5;
+    color: #F4F4FD;
+    cursor: pointer;
+    display: block;
+
+
+
+}
+
+.button_order:hover {
+    background-color: #404BBF;
+    color: #F4F4FD;
+}
+
+.char_header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+
+    letter-spacing: 0.02em;
+
+    color: #2E2F42;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.char {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+
+    color: #434455;
+    margin: 0 auto;
+
+}
+
+.wawd {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.1;
+
+    letter-spacing: 0.02em;
+
+    color: #2E2F42;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ot {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.1;
+
+    letter-spacing: 0.02em;
+
+    color: #2E2F42;
+    margin: 0 auto;
+}
+
+.teamate_name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+
+    letter-spacing: 0.02em;
+
+    color: #2E2F42;
+
+
+}
+
+.teamate_prof {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: #434455;
+
+}
+
+.footer_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+
+    color: #E7E9FC;
+
+    margin: 0 auto;
+}
+
+
+.nav_port_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+
+    letter-spacing: 0.04em;
+
+    color: #4D5AE5;
+
+}
+
+.name_proj {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+
+    letter-spacing: 0.02em;
+
+    color: #2E2F42;
+
+}
+
+.type_proj {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+
+    color: #434455;
+}
+
+.footer_color {
+    background-color: #2E2F42;
+}
+
+.list {
+    list-style: none;
+}
