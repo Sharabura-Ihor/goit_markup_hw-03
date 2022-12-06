@@ -45,6 +45,14 @@ a {
     letter-spacing: 0.03em;
 
     color: #F4F4FD;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 155px;
+}
+
+.footer_ul {
+    padding: 0;
 }
 
 .web {
@@ -194,8 +202,8 @@ padding-right: 330px
 
     color: #434455;
     margin: 0 auto;
-
 }
+
 
 .wawd {
     font-family: 'Roboto';
@@ -303,8 +311,10 @@ padding-right: 330px
     letter-spacing: 0.02em;
 
     color: #E7E9FC;
-
-    margin: 0 auto;
+    display: flex;
+    margin-left: 0;
+    width: 265px;
+    padding-left: 155px;
 }
 
 .nav_buttons {
@@ -357,6 +367,8 @@ padding-right: 330px
 
 .footer_color {
     background-color: #2E2F42;
+    width: 1440px;
+    height: 310px;
 }
 
 .list {
@@ -380,14 +392,25 @@ padding-right: 330px
 .listchar {
     display: table;
     list-style: none;
-    justify-content: space-evenly;
     padding-right: 24px;
     width: 264px;
     height: 72px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 
 .char_ul {
     display: flex;
     margin: 0 auto;
-    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 155px;
+}
+
+.socialnetwork {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 25px;
+
 }
