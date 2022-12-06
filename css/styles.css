@@ -9,8 +9,6 @@ a {
 
 .container {
     display: flex;
-    width: 1158px;
-    padding: 25px;
     margin: 0 auto;
 }
 
@@ -21,6 +19,7 @@ a {
 }
 
 .webstudio {
+    display: flex;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -30,6 +29,9 @@ a {
     letter-spacing: 0.03em;
 
     color: #2E2F42;
+
+    padding-top: 24px;
+    padding-left: 155px;
 
 }
 
@@ -111,8 +113,9 @@ padding-right: 330px
     letter-spacing: 0.02em;
 
     color: #434455;
-    text-decoration: none;
     align-items: center;
+    padding-right: 150px;
+
 
 
 }
@@ -138,6 +141,8 @@ padding-right: 330px
     padding: 120px;
     margin: 0 auto;
     padding-bottom: 48px;
+    width: 492px;
+    height: 120px;
 }
 
 .button_order {
@@ -205,6 +210,14 @@ padding-right: 330px
     margin: 0 auto;
 }
 
+.wad_section {
+    display: flex;
+    align-items: center;
+    padding: 120px 155px 120px 155px;
+
+
+}
+
 .wawd_img {
     display: flex;
     margin: 0 auto;
@@ -213,8 +226,8 @@ padding-right: 330px
     padding-top: 72px;
     align-items: center;
     justify-content: space-evenly;
-
 }
+
 
 .ot_section {
     background-color: #F4F4FD;
@@ -293,6 +306,11 @@ padding-right: 330px
     margin: 0 auto;
 }
 
+.nav_buttons {
+    display: flex;
+    justify-content: space-evenly;
+
+}
 
 .nav_port_text {
     font-family: 'Roboto';
