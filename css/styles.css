@@ -15,8 +15,9 @@ a {
 }
 
 .header {
-    display: block;
+    display: flex;
     height: 72px;
+    border: 1px solid #ececec;
 }
 
 .webstudio {
@@ -59,11 +60,14 @@ a {
 
 .nav_link {
     display: flex;
-    padding-left: 350px;
+    margin: 0 auto;
+align-items: center;
+padding-right: 330px
+
 }
 
 .nav {
-
+    display: flex;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -99,8 +103,7 @@ a {
 }
 
 .cont {
-display: flex;
-
+    display: flex;
     font-family: 'Roboto';
     font-style: normal;
     line-height: 1.5;
@@ -109,7 +112,9 @@ display: flex;
 
     color: #434455;
     text-decoration: none;
-    padding-left: 940px;
+    align-items: center;
+
+
 }
 
 .service_order {
@@ -200,6 +205,22 @@ display: flex;
     margin: 0 auto;
 }
 
+.wawd_img {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 120px;
+    padding-top: 72px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.ot_section {
+    background-color: #F4F4FD;
+
+}
+
 .ot {
     font-family: 'Roboto';
     font-style: normal;
@@ -211,6 +232,23 @@ display: flex;
 
     color: #2E2F42;
     margin: 0 auto;
+    display: flex;
+
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.teamates {
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 120px;
+    height: 436px;
+}
+
+.teamates_box {
+    background-color: #FFFFFF;
 }
 
 .teamate_name {
@@ -223,8 +261,8 @@ display: flex;
     letter-spacing: 0.02em;
 
     color: #2E2F42;
-
-
+    display: flex;
+    justify-content: center;
 }
 
 .teamate_prof {
@@ -236,6 +274,9 @@ display: flex;
     letter-spacing: 0.02em;
 
     color: #434455;
+
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -288,6 +329,11 @@ display: flex;
     letter-spacing: 0.02em;
 
     color: #434455;
+}
+
+.customers {
+    font-family: 'Roboto';
+    font-style: normal;
 }
 
 .footer_color {
