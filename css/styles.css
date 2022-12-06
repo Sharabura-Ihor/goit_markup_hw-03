@@ -114,7 +114,7 @@ padding-right: 330px
 
     color: #434455;
     align-items: center;
-    padding-right: 150px;
+    padding-right: 133px;
 
 
 
@@ -169,6 +169,7 @@ padding-right: 330px
 }
 
 .char_header {
+    display: flex;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 20px;
@@ -180,10 +181,10 @@ padding-right: 330px
     color: #2E2F42;
     text-decoration: none;
     margin: 0 auto;
-
 }
 
 .char {
+    display: flex;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 16px;
@@ -368,7 +369,6 @@ padding-right: 330px
 .listcont {
     display: flex;
     list-style: none;
-
     margin-left: 40px;
 }
 
@@ -378,11 +378,16 @@ padding-right: 330px
 }
 
 .listchar {
-    display: flex;
+    display: table;
     list-style: none;
-    
+    justify-content: space-evenly;
+    padding-right: 24px;
+    width: 264px;
+    height: 72px;
 }
 
-.pecu {
-    padding: 120px;
+.char_ul {
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-start;
 }
