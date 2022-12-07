@@ -59,9 +59,6 @@ header.container {
 
     color: #F4F4FD;
     display: flex;
-    margin: 0 auto;
-
-    padding-top: 100px;
 }
 
 .web {
@@ -111,7 +108,7 @@ header.container {
 
     color: #E7E9FC;
     cursor: pointer;
-    order: 1px solid #E7E9FC;
+    border: 1px solid #E7E9FC;
     border-radius: 4px;
 
 }
@@ -151,7 +148,6 @@ header.container {
 .service_order {
     background-color: #2E2F42;
     padding: 192px;
-    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -170,7 +166,6 @@ header.container {
 
     color: #FFFFFF;
     text-align: center;
-    padding: 120px;
     margin: 0 auto;
     padding-bottom: 48px;
     width: 492px;
@@ -218,7 +213,7 @@ footer.container {
     color: #2E2F42;
     text-decoration: none;
     margin: 0 auto;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .char {
@@ -248,39 +243,37 @@ footer.container {
     color: #2E2F42;
     text-align: center;
     margin: 0 auto;
-    padding-top: 120px;
+    margin-bottom: 72px;
 }
 
 .wad_section {
     display: flex;
     align-items: center;
-    padding: 120px 155px 120px 155px;
-
 
 }
 
 .wawd_img {
     display: flex;
-    margin: 0 auto;
-    padding: 0;
-    padding-bottom: 120px;
-    padding-top: 72px;
-    align-items: center;
-    justify-content: space-evenly;
+    margin-bottom: 120px;
+    padding-left: 0;
+    justify-content: center;
 }
 
 
+
 .ot_section {
-    background-color: #F4F4FD;
+    display: flex;
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    padding-bottom: 120px;
+    background-color: #F4F4FD;
 }
 
 .ot {
+    display: flex;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 36px;
@@ -295,23 +288,33 @@ footer.container {
 
     justify-content: center;
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
+
 .teamates {
-    padding: 0;
     display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 120px;
+    padding: 0;
+}
+
+.teamates_box:last-child {
+    margin-right: 0;
 }
 
 .teamates_box {
+    padding: 0;
+    margin-right: 24px;
     background-color: #FFFFFF;
+    width: 264px;
+    height: 380px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
 .teametes_div {
+    display: table;
+    margin: 0 auto;
+justify-content: center;
     padding: 32px 16px 32px 16px;
 
 }
@@ -328,7 +331,7 @@ footer.container {
     color: #2E2F42;
     display: flex;
     margin: 0 auto;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     justify-content: center;
 }
 
@@ -359,18 +362,26 @@ footer.container {
     color: #E7E9FC;
     display: flex;
     margin-left: 0;
-    padding-right: 850px;
-    padding-bottom: 100px;
+
 }
 
 .nav_buttons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin-left: 427px;
+    padding-left: 0;
     padding-top: 96px;
     margin: 0 auto;
     width: 586px;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
 
+.li_but {
+    margin-right: 24px;
+}
+
+.li_but:last-child {
+    margin-right: 0;
 }
 
 .nav_port_text {
@@ -454,6 +465,11 @@ footer.container {
 .listchar {
     display: table;
     list-style: none;
+    margin-right: 24px;
+}
+
+.listchar:last-child {
+    margin: 0;
 }
 
 .char_ul {
@@ -476,29 +492,43 @@ footer.container {
 .listproj {
     display: table;
     list-style: none;
+    margin-top: 48px;
+    margin-right: 24px;
     border: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .proj_ul {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    justify-content: center;
     padding-left: 0;
-    padding-top: 48px;
+    flex-wrap: wrap;
+    margin-bottom: 110px;
 }
 
-.proj_ul_three{
+.listproj_ {
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+
+
+
+.pecu {
     display: flex;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    margin: 0 auto;
     padding-left: 0;
-    padding-top: 72px;
-    padding-bottom: 110px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    align-items: center;
 }
 
-.footer_ul {
-    background-color: #2E2F42;
+.footer_div {
+    width: 264px;
+    height: 110px;
 }
 
+.footer_div:first-child {
+    display: flex;
+    padding-top: 100px;
+}
