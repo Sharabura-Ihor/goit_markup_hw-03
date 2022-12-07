@@ -8,13 +8,26 @@ a {
 }
 
 .container {
-    display: flex;
-    margin: 0 auto;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
 }
+
+header.container {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 
 .header {
     display: flex;
-    height: 72px;
     border: 1px solid #ececec;
 }
 
@@ -30,8 +43,8 @@ a {
 
     color: #2E2F42;
 
-    padding-top: 24px;
-    padding-left: 155px;
+    margin: 0 auto;
+    padding-left: 40px;
 
 }
 
@@ -47,12 +60,8 @@ a {
     color: #F4F4FD;
     display: flex;
     margin: 0 auto;
-    padding-top: 100px;
-    padding-left: 155px;
-}
 
-.footer_ul {
-    padding: 0;
+    padding-top: 100px;
 }
 
 .web {
@@ -71,8 +80,7 @@ a {
 .nav_link {
     display: flex;
     margin: 0 auto;
-align-items: center;
-padding-right: 330px
+    padding: 0;
 
 }
 
@@ -89,11 +97,14 @@ padding-right: 330px
     color: #2E2F42;
     text-decoration: none;
     margin: 0 auto;
-
-
 }
 
 .nav_port {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
     box-sizing: border-box;
     padding: 8px 16px;
     background: #4D5AE5;
@@ -123,12 +134,14 @@ padding-right: 330px
     letter-spacing: 0.02em;
 
     color: #434455;
+
 }
 
 .cont_ul {
     display: flex;
+    margin: 0 auto;
+    padding: 0;
     align-items: center;
-    padding-right: 133px;
 }
 
 .cont:hover {
@@ -137,9 +150,13 @@ padding-right: 330px
 
 .service_order {
     background-color: #2E2F42;
-    padding: 140px;
-
-
+    padding: 192px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .solut {
@@ -160,11 +177,18 @@ padding-right: 330px
     height: 120px;
 }
 
+
+
+
+footer.container {
+    background-color: #2E2F42;
+}
+
 .button_order {
     padding-top: 16px;
-    padding-right: 16px;
+    padding-right: 32px;
     padding-bottom: 16px;
-    padding-left: 16px;
+    padding-left: 32px;
     border-radius: 4px;
     text-align: center;
     letter-spacing: 0.04em;
@@ -172,8 +196,6 @@ padding-right: 330px
     color: #F4F4FD;
     cursor: pointer;
     display: block;
-    width: 170px;
-    height: 51px;
     margin: 0 auto;
 
 }
@@ -196,6 +218,7 @@ padding-right: 330px
     color: #2E2F42;
     text-decoration: none;
     margin: 0 auto;
+    padding-bottom: 8px;
 }
 
 .char {
@@ -209,6 +232,7 @@ padding-right: 330px
 
     color: #434455;
     margin: 0 auto;
+    padding-bottom: 8px;
 }
 
 
@@ -224,6 +248,7 @@ padding-right: 330px
     color: #2E2F42;
     text-align: center;
     margin: 0 auto;
+    padding-top: 120px;
 }
 
 .wad_section {
@@ -247,7 +272,12 @@ padding-right: 330px
 
 .ot_section {
     background-color: #F4F4FD;
-
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .ot {
@@ -273,11 +303,17 @@ padding-right: 330px
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 120px;
-    height: 436px;
 }
 
 .teamates_box {
     background-color: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.teametes_div {
+    padding: 32px 16px 32px 16px;
+
 }
 
 .teamate_name {
@@ -291,6 +327,8 @@ padding-right: 330px
 
     color: #2E2F42;
     display: flex;
+    margin: 0 auto;
+    padding-bottom: 8px;
     justify-content: center;
 }
 
@@ -298,13 +336,14 @@ padding-right: 330px
     font-family: 'Roboto';
     font-style: normal;
     font-size: 16px;
-    font-weight: 800;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
     color: #434455;
 
     display: flex;
+    margin: 0 auto;
     justify-content: center;
 
 }
@@ -320,8 +359,8 @@ padding-right: 330px
     color: #E7E9FC;
     display: flex;
     margin-left: 0;
-    width: 265px;
-    padding-left: 155px;
+    padding-right: 850px;
+    padding-bottom: 100px;
 }
 
 .nav_buttons {
@@ -330,6 +369,7 @@ padding-right: 330px
     padding-top: 96px;
     margin: 0 auto;
     width: 586px;
+    padding-bottom: 24px;
 
 }
 
@@ -402,7 +442,9 @@ padding-right: 330px
     display: flex;
     list-style: none;
     margin-left: 40px;
+
 }
+
 
 .listport {
     display: flex;
@@ -412,19 +454,15 @@ padding-right: 330px
 .listchar {
     display: table;
     list-style: none;
-    padding-right: 24px;
-    width: 264px;
-    height: 72px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-
 }
 
 .char_ul {
     display: flex;
     margin: 0 auto;
-    flex-direction: row;
-    padding-left: 155px;
+    padding-left: 0;
+    padding-top: 120px;
+    align-items: center;
+
 }
 
 .socialnetwork {
@@ -446,8 +484,21 @@ padding-right: 330px
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    padding-bottom: 120px;
+    padding-left: 0;
+    padding-top: 48px;
+}
+
+.proj_ul_three{
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 0;
     padding-top: 72px;
-    
+    padding-bottom: 110px;
+}
+
+.footer_ul {
+    background-color: #2E2F42;
 }
 
