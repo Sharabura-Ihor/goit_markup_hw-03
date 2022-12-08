@@ -511,9 +511,6 @@ justify-content: center;
     margin-top: 48px;
 }
 
-
-
-
 .pecu {
     display: flex;
     margin: 0 auto;
@@ -524,11 +521,18 @@ justify-content: center;
 }
 
 .footer_div {
-    width: 264px;
-    height: 110px;
+    display: flex;
+    padding-right: 850px;
+    padding-bottom: 16px;
 }
 
-.footer_div:first-child {
+.footer_div:last-child {
     display: flex;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.footer_ul {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
