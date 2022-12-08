@@ -14,7 +14,6 @@ a {
     margin-left: auto;
     margin-right: auto;
     display: block;
-
 }
 
 header.container {
@@ -167,7 +166,7 @@ header.container {
     color: #FFFFFF;
     text-align: center;
     margin: 0 auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     width: 492px;
     height: 120px;
 }
@@ -227,7 +226,6 @@ footer.container {
 
     color: #434455;
     margin: 0 auto;
-    padding-bottom: 8px;
 }
 
 
@@ -246,30 +244,21 @@ footer.container {
     margin-bottom: 72px;
 }
 
-.wad_section {
+.wawd_section {
     display: flex;
     align-items: center;
-
+    margin-bottom: 120px;
 }
 
-.wawd_img {
+
+.wawd_ul {
     display: flex;
-    margin-bottom: 120px;
     padding-left: 0;
     justify-content: center;
 }
 
-
-
-.ot_section {
-    display: flex;
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 120px;
-    background-color: #F4F4FD;
+.wawd_img {
+    margin-right: 24px;
 }
 
 .ot {
@@ -287,14 +276,26 @@ footer.container {
     display: flex;
 
     justify-content: center;
-    padding-top: 120px;
     margin-bottom: 72px;
+}
+
+.container_ot {
+    padding-top: 120px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 120px;
+    background-color: #F4F4FD;
 }
 
 
 .teamates {
     display: flex;
     padding: 0;
+    justify-content: center;
 }
 
 .teamates_box:last-child {
@@ -302,19 +303,16 @@ footer.container {
 }
 
 .teamates_box {
-    padding: 0;
     margin-right: 24px;
     background-color: #FFFFFF;
-    width: 264px;
-    height: 380px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    height: 380px;
 }
 
 .teametes_div {
-    display: table;
     margin: 0 auto;
-justify-content: center;
+    justify-content: center;
     padding: 32px 16px 32px 16px;
 
 }
@@ -372,8 +370,7 @@ justify-content: center;
     padding-left: 0;
     padding-top: 96px;
     margin: 0 auto;
-    width: 586px;
-    margin-bottom: 24px;
+    padding-bottom: 72px;
 }
 
 .li_but {
@@ -438,8 +435,6 @@ justify-content: center;
 
 .footer_color {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 310px;
 }
 
 .list {
@@ -476,7 +471,6 @@ justify-content: center;
     display: flex;
     margin: 0 auto;
     padding-left: 0;
-    padding-top: 120px;
     align-items: center;
 
 }
@@ -492,7 +486,7 @@ justify-content: center;
 .listproj {
     display: table;
     list-style: none;
-    margin-top: 48px;
+    margin-bottom: 48px;
     margin-right: 24px;
     border: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -503,12 +497,15 @@ justify-content: center;
     justify-content: center;
     padding-left: 0;
     flex-wrap: wrap;
-    margin-bottom: 110px;
+    padding-bottom: 110px;
+    margin: 0;
 }
 
 .listproj_ {
-    margin: 0 auto;
-    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-right: 0;
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .pecu {
@@ -535,4 +532,5 @@ justify-content: center;
 .footer_ul {
     padding-top: 100px;
     padding-bottom: 100px;
+    margin-top: 0;
 }
